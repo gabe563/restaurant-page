@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+@font-face {
+  font-family: 'Bitsumis';
+  /* src: url('../fonts/BITSUMIS.ttf') format('ttf'); */
+  src: url('../fonts/bitsumis-webfont.woff2') format('woff2'),
+    url('../fonts/bitsumis-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --header-color: rgba(17, 24, 39, 0.9);
+  --st-color: #fafaf9;
+  --nd-color: black;
+  --rd-color: rgba(30, 58, 138, 0.9);
+  --th-color: #fb7185;
+  --fifth-color: rgba(55, 65, 81, 0.9);
+  --sixth-color: rgba(2, 132, 199, 0.9);
+  --seventh-color: rgba(5, 150, 105, 0.9);
+
+  --st-font: 'Bitsumis';
+  --nd-font: 'Orbitron';
+}
+
+body {
+  box-sizing: border-box;
+}
+
+body::after {
+  content: '';
+  background: url(../assets/bg.jpeg);
+  opacity: 70%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.snack1 {
+  height: 324px;
+  width: 488px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  background-color: var(--header-color);
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.title-div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.title-div p {
+  font-family: var(--st-font);
+  font-size: 35px;
+  color: var(--st-color);
+}
+
+.nut-icon {
+  color: var(--st-color);
+}
+
+.pages {
+  display: flex;
+  align-items: center;
+  gap: 113px;
+  list-style-type: none;
+  font-family: var(--nd-font);
+  color: var(--st-color);
+  position: relative;
+}
+
+.pages li {
+  cursor: pointer;
+  z-index: 2;
+}
+
+.current-box {
+  margin-left: -45px;
+  position: absolute;
+  width: 130px;
+  height: 45px;
+  border: 4px solid var(--st-color);
+  border-radius: 24px;
+  z-index: 1;
+}
