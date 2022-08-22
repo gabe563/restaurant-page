@@ -8,6 +8,9 @@ function menuContent() {
   const menuCont = document.createElement('div');
   menuCont.classList.add('menu-content');
 
+  const scrollBar = document.createElement('div');
+  scrollBar.classList.add('scrollbar');
+
   const imagesCont = document.createElement('div');
   imagesCont.classList.add('img-cont');
 
@@ -32,7 +35,9 @@ function menuContent() {
   imagesCont.appendChild(food4);
   imagesCont.appendChild(food5);
 
-  menuCont.appendChild(imagesCont);
+  scrollBar.appendChild(imagesCont);
+
+  menuCont.appendChild(scrollBar);
 
   return menuCont;
 }

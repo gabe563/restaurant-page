@@ -235,25 +235,34 @@ li:nth-child(1).current ~ .current-box {
 .menu-content {
   display: flex;
   align-items: center;
-  justify-content: center;
   width: 1315px;
   height: 574px;
   border-radius: 50px;
   background-color: rgba(250, 250, 249, 0.9);
   animation: fadeIn 1s;
-  overflow: scroll;
 }
 
 .menu-content img {
+  border-radius: 35px;
   width: 550px;
-  height: 340px;
+  height: 350px;
 }
 
 .img-cont {
-  width: 550px;
-  height: 520px;
   display: flex;
   flex-direction: column;
+  gap: 50px;
+  padding: 10px;
+  width: 550px;
+  height: 574px;
+}
+
+.scrollbar {
+  display: flex;
+  justify-content: center;
+  height: 485px;
+  width: 1315px;
+  overflow: auto;
 }
 
 @keyframes fadeIn {
