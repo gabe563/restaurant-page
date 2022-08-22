@@ -1,7 +1,4 @@
 import './styles/main.css';
-import { header, homeContent } from './home';
+import loadUp from './loadWebsite';
 
-const contentDiv = document.getElementById('content');
-
-contentDiv.appendChild(header());
-contentDiv.appendChild(homeContent());
+loadUp();
