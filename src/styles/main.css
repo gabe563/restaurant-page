@@ -242,27 +242,62 @@ li:nth-child(1).current ~ .current-box {
   animation: fadeIn 1s;
 }
 
-.menu-content img {
+.cake img {
   border-radius: 35px;
-  width: 550px;
-  height: 350px;
+  width: 470px;
+  height: 400px;
 }
 
 .img-cont {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 50px;
   padding: 10px;
   width: 550px;
-  height: 574px;
+  height: 140rem;
 }
 
 .scrollbar {
   display: flex;
   justify-content: center;
-  height: 485px;
+  height: 500px;
   width: 1315px;
   overflow: auto;
+}
+
+.cake {
+  overflow: hidden;
+  flex-direction: row-reverse;
+  display: flex;
+  height: 400px;
+  width: 470px;
+}
+
+.tag {
+  font-size: 10px;
+  margin-top: 35px;
+  height: 45px;
+  min-width: 220px;
+  width: 200px;
+  color: white;
+  border-top: 26px solid rgba(251, 113, 133, 0.9);
+  border-bottom: 26px solid rgba(251, 113, 133, 0.9);
+  border-right: 14px solid transparent;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  transition: 0.2s;
+  font-family: var(--nd-font);
+  position: relative;
+}
+
+.tag p {
+  margin-left: 20px;
+}
+
+.cake:hover .tag {
+  transform: translateX(100%);
 }
 
 @keyframes fadeIn {

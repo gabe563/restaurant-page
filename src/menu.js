@@ -14,32 +14,57 @@ function menuContent() {
   const imagesCont = document.createElement('div');
   imagesCont.classList.add('img-cont');
 
-  const food1 = document.createElement('img');
-  food1.src = cake1;
-
-  const food2 = document.createElement('img');
-  food2.src = cake2;
-
-  const food3 = document.createElement('img');
-  food3.src = cake3;
-
-  const food4 = document.createElement('img');
-  food4.src = cake4;
-
-  const food5 = document.createElement('img');
-  food5.src = cake5;
-
-  imagesCont.appendChild(food1);
-  imagesCont.appendChild(food2);
-  imagesCont.appendChild(food3);
-  imagesCont.appendChild(food4);
-  imagesCont.appendChild(food5);
+  imagesCont.appendChild(createDivCake(cake1, 'Tools & Screws Cake $ 50.99'));
+  imagesCont.appendChild(createDivCake(cake2, 'Formula 1 Cake Set $ 29.99'));
+  imagesCont.appendChild(createDivCake(cake3, 'Electric Tools Cake $ 15.50'));
+  imagesCont.appendChild(createDivCake(cake4, 'Rusty Tools Cake $ 45.05'));
+  imagesCont.appendChild(createDivCake(cake5, 'All In One Box Cake $ 70.00'));
 
   scrollBar.appendChild(imagesCont);
 
   menuCont.appendChild(scrollBar);
 
   return menuCont;
+}
+
+function createDivCake(cake, txt) {
+  const div = document.createElement('div');
+  div.classList.add('cake');
+
+  const div2 = document.createElement('div');
+  div2.classList.add('img-box');
+
+  div.appendChild(div2);
+
+  div2.appendChild(createCake(cake));
+
+  div.appendChild(createTag(txt));
+
+  return div;
+}
+
+function createCake(cake) {
+  const img = document.createElement('img');
+  img.setAttribute('draggable', 'false');
+  img.src = cake;
+
+  return img;
+}
+
+function createTag(txt) {
+  const div = document.createElement('div');
+  div.classList.add('tag');
+
+  div.appendChild(createParagraph(txt));
+
+  return div;
+}
+
+function createParagraph(txt) {
+  const p = document.createElement('p');
+  p.textContent = txt;
+
+  return p;
 }
 
 export default function getMenu() {
