@@ -18,6 +18,15 @@ function homeContent() {
   const homeInfoContainer = document.createElement('div');
   homeInfoContainer.classList.add('home-info');
 
+  const cakeDiv = document.createElement('div');
+  cakeDiv.classList.add('cake');
+
+  const tagDiv = document.createElement('div');
+  tagDiv.classList.add('tag');
+
+  const tagP = document.createElement('p');
+  tagP.textContent = 'Scraps Muffins $ 4.99';
+
   const homeInfoImage = document.createElement('img');
   homeInfoImage.src = snack1;
   homeInfoImage.setAttribute('draggable', 'false');
@@ -30,7 +39,7 @@ function homeContent() {
   InfoTxtCont.classList.add('info-cont1');
 
   const homeInfoTxt1 = document.createElement('p');
-  homeInfoTxt1.textContent = 'best quality for the lowest price';
+  homeInfoTxt1.textContent = 'Best Quality For The Lowest Price.';
 
   const homeInfoLine = document.createElement('hr');
 
@@ -42,7 +51,11 @@ function homeContent() {
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate elit eu neque tellus scelerisque odio.';
 
   homeInfoContainer.appendChild(homeInfoTxtCont);
-  homeInfoContainer.appendChild(homeInfoImage);
+  homeInfoContainer.appendChild(cakeDiv);
+
+  cakeDiv.appendChild(homeInfoImage);
+  cakeDiv.appendChild(tagDiv);
+  tagDiv.appendChild(tagP);
 
   homeInfoTxtCont.appendChild(InfoTxtCont);
   homeInfoTxtCont.appendChild(InfoTxtCont2);

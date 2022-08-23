@@ -32,7 +32,7 @@ var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_g
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n  font-family: 'Bitsumis';\n  /* src: url('../fonts/BITSUMIS.ttf') format('ttf'); */\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format('woff2'),\n    url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") format('woff');\n  font-weight: normal;\n  font-style: normal;\n}\n\n*,\n*::after,\n*::before {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\n:root {\n  --header-color: rgba(17, 24, 39, 0.9);\n  --st-color: #fafaf9;\n  --nd-color: black;\n\n  --st-font: 'Bitsumis';\n  --nd-font: 'Orbitron';\n}\n\nbody::after {\n  content: '';\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n  opacity: 70%;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  position: absolute;\n  z-index: -1;\n}\n\n#content {\n  width: 100vw;\n  height: 100vh;\n}\n\n.info {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 665px;\n}\n\n.snack1 {\n  height: 324px;\n  width: 488px;\n}\n\n.header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: 100px;\n  background-color: var(--header-color);\n  padding-left: 60px;\n  padding-right: 60px;\n}\n\n.title-div {\n  display: flex;\n  align-items: center;\n  gap: 20px;\n}\n\n.title-div p {\n  font-family: var(--st-font);\n  font-size: 35px;\n  color: var(--st-color);\n  cursor: pointer;\n}\n\n.nut-icon {\n  color: var(--st-color);\n  cursor: pointer;\n}\n\n.pages {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 70px;\n  width: 635px;\n  height: 50px;\n  font-size: 0;\n  list-style-type: none;\n  font-family: var(--nd-font);\n  color: var(--st-color);\n  position: relative;\n}\n\n.pages li {\n  font-size: 15px;\n  cursor: pointer;\n  position: relative;\n  text-align: center;\n  z-index: 1;\n}\n\n.pages .current-box {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  width: 140px;\n  height: 100%;\n  border: 4px solid var(--st-color);\n  border-radius: 24px;\n  z-index: 0;\n  transition: all 0.5s ease 0s;\n}\n\n.pages .start,\nli:nth-child(4).current ~ .current-box {\n  width: 120px;\n  left: 512px;\n}\n\n.pages .start,\nli:nth-child(3).current ~ .current-box {\n  left: 343px;\n}\n\n.pages .start,\nli:nth-child(2).current ~ .current-box {\n  left: 173px;\n}\n\n.pages .start,\nli:nth-child(1).current ~ .current-box {\n  width: 120px;\n  left: 3px;\n}\n\n.pages li:nth-child(1) {\n  width: 100px;\n}\n\n.pages li:nth-child(2) {\n  width: 100px;\n}\n\n.pages li:nth-child(3) {\n  width: 100px;\n}\n\n.pages li:nth-child(4) {\n  width: 100px;\n}\n\n.home-content {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  width: 1315px;\n  height: 574px;\n  background-color: rgba(250, 250, 249, 0.9);\n  border-radius: 50px;\n  animation: fadeIn 1s;\n}\n\n.header-home {\n  display: flex;\n  align-items: center;\n  gap: 30px;\n}\n\n.header-home p {\n  margin-top: 10px;\n  font-size: 45px;\n  font-weight: 900;\n  -webkit-text-stroke: 1px black;\n}\n\n.header-home,\n.home-info {\n  font-family: 'Rajdhani';\n}\n\n.home-info {\n  display: flex;\n  gap: 34px;\n  margin-top: 45px;\n  margin-left: 144px;\n  margin-right: 144px;\n}\n\n.home-txt {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  gap: 50px;\n  font-size: 33px;\n  font-weight: 800;\n}\n\n.home-txt hr {\n  display: flex;\n  align-items: center;\n  height: 4px;\n  margin-left: -10px;\n  width: 440px;\n  border: none;\n  border-top-right-radius: 5px;\n  border-bottom-right-radius: 5px;\n  background-color: white;\n}\n\n.home-txt hr::before {\n  border-radius: 50%;\n  content: '';\n  width: 15px;\n  height: 15px;\n  position: absolute;\n  background-color: white;\n}\n\n.snack1 {\n  border-radius: 74px;\n}\n\n.info-cont2 {\n  max-width: 400px;\n}\n\n.menu-content {\n  display: flex;\n  align-items: center;\n  width: 1315px;\n  height: 574px;\n  border-radius: 50px;\n  background-color: rgba(250, 250, 249, 0.9);\n  animation: fadeIn 1s;\n}\n\n.cake img {\n  border-radius: 35px;\n  width: 470px;\n  height: 400px;\n}\n\n.img-cont {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 50px;\n  padding: 10px;\n  width: 550px;\n  height: 140rem;\n}\n\n.scrollbar {\n  display: flex;\n  justify-content: center;\n  height: 500px;\n  width: 1315px;\n  overflow: auto;\n}\n\n.cake {\n  overflow: hidden;\n  flex-direction: row-reverse;\n  display: flex;\n  height: 400px;\n  width: 470px;\n}\n\n.tag {\n  font-size: 10px;\n  margin-top: 35px;\n  height: 45px;\n  min-width: 220px;\n  width: 200px;\n  color: white;\n  border-top: 26px solid rgba(251, 113, 133, 0.9);\n  border-bottom: 26px solid rgba(251, 113, 133, 0.9);\n  border-right: 14px solid transparent;\n  display: flex;\n  align-items: center;\n  white-space: nowrap;\n  transition: 0.2s;\n  font-family: var(--nd-font);\n  position: relative;\n}\n\n.tag p {\n  margin-left: 20px;\n}\n\n.cake:hover .tag {\n  transform: translateX(100%);\n}\n\n@keyframes fadeIn {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"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","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');\n@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');\n\n@font-face {\n  font-family: 'Bitsumis';\n  /* src: url('../fonts/BITSUMIS.ttf') format('ttf'); */\n  src: url('../fonts/bitsumis-webfont.woff2') format('woff2'),\n    url('../fonts/bitsumis-webfont.woff') format('woff');\n  font-weight: normal;\n  font-style: normal;\n}\n\n*,\n*::after,\n*::before {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\n:root {\n  --header-color: rgba(17, 24, 39, 0.9);\n  --st-color: #fafaf9;\n  --nd-color: black;\n\n  --st-font: 'Bitsumis';\n  --nd-font: 'Orbitron';\n}\n\nbody::after {\n  content: '';\n  background: url(../assets/bg.jpeg);\n  opacity: 70%;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  position: absolute;\n  z-index: -1;\n}\n\n#content {\n  width: 100vw;\n  height: 100vh;\n}\n\n.info {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 665px;\n}\n\n.snack1 {\n  height: 324px;\n  width: 488px;\n}\n\n.header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: 100px;\n  background-color: var(--header-color);\n  padding-left: 60px;\n  padding-right: 60px;\n}\n\n.title-div {\n  display: flex;\n  align-items: center;\n  gap: 20px;\n}\n\n.title-div p {\n  font-family: var(--st-font);\n  font-size: 35px;\n  color: var(--st-color);\n  cursor: pointer;\n}\n\n.nut-icon {\n  color: var(--st-color);\n  cursor: pointer;\n}\n\n.pages {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 70px;\n  width: 635px;\n  height: 50px;\n  font-size: 0;\n  list-style-type: none;\n  font-family: var(--nd-font);\n  color: var(--st-color);\n  position: relative;\n}\n\n.pages li {\n  font-size: 15px;\n  cursor: pointer;\n  position: relative;\n  text-align: center;\n  z-index: 1;\n}\n\n.pages .current-box {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  width: 140px;\n  height: 100%;\n  border: 4px solid var(--st-color);\n  border-radius: 24px;\n  z-index: 0;\n  transition: all 0.5s ease 0s;\n}\n\n.pages .start,\nli:nth-child(4).current ~ .current-box {\n  width: 120px;\n  left: 512px;\n}\n\n.pages .start,\nli:nth-child(3).current ~ .current-box {\n  left: 343px;\n}\n\n.pages .start,\nli:nth-child(2).current ~ .current-box {\n  left: 173px;\n}\n\n.pages .start,\nli:nth-child(1).current ~ .current-box {\n  width: 120px;\n  left: 3px;\n}\n\n.pages li:nth-child(1) {\n  width: 100px;\n}\n\n.pages li:nth-child(2) {\n  width: 100px;\n}\n\n.pages li:nth-child(3) {\n  width: 100px;\n}\n\n.pages li:nth-child(4) {\n  width: 100px;\n}\n\n.home-content {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  width: 1315px;\n  height: 574px;\n  background-color: rgba(250, 250, 249, 0.9);\n  border-radius: 50px;\n  animation: fadeIn 1s;\n}\n\n.header-home {\n  display: flex;\n  align-items: center;\n  gap: 30px;\n}\n\n.header-home p {\n  margin-top: 10px;\n  font-size: 45px;\n  font-weight: 900;\n  -webkit-text-stroke: 1px black;\n}\n\n.header-home,\n.home-info {\n  font-family: 'Rajdhani';\n}\n\n.home-info {\n  display: flex;\n  gap: 34px;\n  margin-top: 45px;\n  margin-left: 144px;\n  margin-right: 144px;\n}\n\n.home-txt {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  gap: 50px;\n  font-size: 33px;\n  font-weight: 800;\n}\n\n.home-txt hr {\n  display: flex;\n  align-items: center;\n  height: 4px;\n  margin-left: -10px;\n  width: 440px;\n  border: none;\n  border-top-right-radius: 5px;\n  border-bottom-right-radius: 5px;\n  background-color: white;\n}\n\n.home-txt hr::before {\n  border-radius: 50%;\n  content: '';\n  width: 15px;\n  height: 15px;\n  position: absolute;\n  background-color: white;\n}\n\n.snack1 {\n  border-radius: 74px;\n}\n\n.info-cont2 {\n  max-width: 400px;\n}\n\n.menu-content {\n  display: flex;\n  align-items: center;\n  width: 1315px;\n  height: 574px;\n  border-radius: 50px;\n  background-color: rgba(250, 250, 249, 0.9);\n  animation: fadeIn 1s;\n}\n\n.cake img {\n  border-radius: 35px;\n  width: 470px;\n  height: 400px;\n}\n\n.img-cont {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 50px;\n  padding: 10px;\n  width: 550px;\n  height: 140rem;\n}\n\n.scrollbar {\n  display: flex;\n  justify-content: center;\n  height: 500px;\n  width: 1315px;\n  overflow: auto;\n}\n\n.cake {\n  overflow: hidden;\n  flex-direction: row-reverse;\n  display: flex;\n  height: 400px;\n  width: 470px;\n}\n\n.tag {\n  font-size: 10px;\n  margin-top: 35px;\n  height: 45px;\n  min-width: 220px;\n  width: 200px;\n  color: white;\n  border-top: 26px solid rgba(251, 113, 133, 0.9);\n  border-bottom: 26px solid rgba(251, 113, 133, 0.9);\n  border-right: 14px solid transparent;\n  display: flex;\n  align-items: center;\n  white-space: nowrap;\n  transition: 0.2s;\n  font-family: var(--nd-font);\n  position: relative;\n}\n\n.tag p {\n  margin-left: 20px;\n}\n\n.cake:hover .tag {\n  transform: translateX(100%);\n}\n\n@keyframes fadeIn {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n  font-family: 'Bitsumis';\n  /* src: url('../fonts/BITSUMIS.ttf') format('ttf'); */\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format('woff2'),\n    url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") format('woff');\n  font-weight: normal;\n  font-style: normal;\n}\n\n*,\n*::after,\n*::before {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\n:root {\n  --header-color: rgba(17, 24, 39, 0.9);\n  --st-color: #fafaf9;\n  --nd-color: black;\n\n  --st-font: 'Bitsumis';\n  --nd-font: 'Orbitron';\n  --rd-font: 'Rajdhani';\n}\n\nbody::after {\n  content: '';\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n  opacity: 70%;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  position: absolute;\n  z-index: -1;\n}\n\n#content {\n  width: 100vw;\n  height: 100vh;\n}\n\n.info {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 665px;\n}\n\n.snack1 {\n  height: 324px;\n  width: 488px;\n}\n\n.header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: 100px;\n  background-color: var(--header-color);\n  padding-left: 60px;\n  padding-right: 60px;\n}\n\n.title-div {\n  display: flex;\n  align-items: center;\n  gap: 20px;\n}\n\n.title-div p {\n  font-family: var(--st-font);\n  font-size: 35px;\n  color: var(--st-color);\n  cursor: pointer;\n}\n\n.nut-icon {\n  color: var(--st-color);\n  cursor: pointer;\n}\n\n.pages {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 70px;\n  width: 635px;\n  height: 50px;\n  font-size: 0;\n  list-style-type: none;\n  font-family: var(--nd-font);\n  color: var(--st-color);\n  position: relative;\n}\n\n.pages li {\n  font-size: 15px;\n  cursor: pointer;\n  position: relative;\n  text-align: center;\n  z-index: 1;\n}\n\n.pages .current-box {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  width: 140px;\n  height: 100%;\n  border: 4px solid var(--st-color);\n  border-radius: 24px;\n  z-index: 0;\n  transition: all 0.5s ease 0s;\n}\n\n.pages .start,\nli:nth-child(4).current ~ .current-box {\n  width: 120px;\n  left: 512px;\n}\n\n.pages .start,\nli:nth-child(3).current ~ .current-box {\n  left: 343px;\n}\n\n.pages .start,\nli:nth-child(2).current ~ .current-box {\n  left: 173px;\n}\n\n.pages .start,\nli:nth-child(1).current ~ .current-box {\n  width: 120px;\n  left: 3px;\n}\n\n.pages li:nth-child(1) {\n  width: 100px;\n}\n\n.pages li:nth-child(2) {\n  width: 100px;\n}\n\n.pages li:nth-child(3) {\n  width: 100px;\n}\n\n.pages li:nth-child(4) {\n  width: 100px;\n}\n\n.home-content {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  width: 92vw;\n  height: 574px;\n  background-color: rgba(250, 250, 249, 0.9);\n  border-radius: 50px;\n  animation: fadeIn 1s;\n}\n\n.header-home {\n  display: flex;\n  align-items: center;\n  gap: 30px;\n  position: relative;\n}\n\n.header-home p {\n  margin-top: 10px;\n  font-size: 45px;\n  font-weight: 900;\n  -webkit-text-stroke: 1px black;\n}\n\n.header-home,\n.home-info {\n  font-family: var(--rd-font);\n}\n\n.home-info {\n  display: flex;\n  gap: 34px;\n  margin-top: 45px;\n  margin-left: 144px;\n  margin-right: 144px;\n}\n\n.home-txt {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  gap: 50px;\n  font-size: 33px;\n  font-weight: 800;\n}\n\n.home-txt hr {\n  display: flex;\n  align-items: center;\n  height: 4px;\n  margin-left: -10px;\n  width: 465px;\n  border: none;\n  border-top-right-radius: 5px;\n  border-bottom-right-radius: 5px;\n  background-color: white;\n}\n\n.home-txt hr::before {\n  border-radius: 50%;\n  content: '';\n  width: 15px;\n  height: 15px;\n  position: absolute;\n  background-color: white;\n}\n\n.snack1 {\n  border-radius: 74px;\n}\n\n.info-cont2 {\n  max-width: 400px;\n}\n\n.menu-content {\n  display: grid;\n  place-content: center;\n  min-width: 574px;\n  width: 92vw;\n  height: 574px;\n  border-radius: 50px;\n  background-color: rgba(250, 250, 249, 0.9);\n  animation: fadeIn 1s;\n}\n\n.cake img {\n  border-radius: 35px;\n  width: 470px;\n  height: 400px;\n}\n\n.img-cont {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 50px;\n  padding: 20px;\n  width: 550px;\n  height: 140rem;\n}\n\n.scrollbar {\n  display: flex;\n  justify-content: center;\n  height: 500px;\n  width: 92vw;\n  overflow: auto;\n}\n\n.cake {\n  overflow: hidden;\n  flex-direction: row-reverse;\n  display: flex;\n  height: 400px;\n  width: 470px;\n  transition: all 0.2s ease;\n}\n\n.cake:hover,\n.about-img img:hover {\n  transform: scale(1.1, 1.1);\n}\n\n.cake:active {\n  transform: scale(1, 1);\n}\n\n.tag {\n  font-size: 10px;\n  margin-top: 35px;\n  height: 45px;\n  min-width: 220px;\n  width: 200px;\n  color: white;\n  border-top: 26px solid rgba(251, 113, 133, 0.9);\n  border-bottom: 26px solid rgba(251, 113, 133, 0.9);\n  border-right: 14px solid transparent;\n  display: flex;\n  align-items: center;\n  white-space: nowrap;\n  transition: 0.2s;\n  font-family: var(--nd-font);\n  position: relative;\n}\n\n.tag p {\n  margin-left: 20px;\n}\n\n.cake:hover .tag {\n  transform: translateX(100%);\n}\n\n.home-info .cake {\n  margin-left: 30px;\n  width: 488px;\n  height: 324px;\n}\n\n.home-info .cake p {\n  margin-left: 30px;\n}\n\n.home-info .cake img {\n  width: 488px;\n  height: 324px;\n}\n\n.about-content {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 50px;\n  width: 92vw;\n  height: 574px;\n  padding: 100px;\n  background-color: rgba(250, 250, 249, 0.9);\n  border-radius: 50px;\n  animation: fadeIn 1s;\n}\n\n.about-txt {\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  gap: 40px;\n  font-family: var(--rd-font);\n}\n\n.about-txt p:nth-child(1) {\n  font-weight: bolder;\n  -webkit-text-stroke: 1px black;\n  font-size: 45px;\n  position: relative;\n}\n\n.about-txt p:nth-child(1)::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  margin-left: -75px;\n  bottom: 50%;\n  height: 2px;\n  width: 45px;\n  background-color: var(--nd-color);\n}\n\n.about-txt p:nth-child(1)::before {\n  content: '';\n  position: absolute;\n  right: 0;\n  margin-right: -75px;\n  bottom: 50%;\n  height: 2px;\n  width: 45px;\n  background-color: var(--nd-color);\n}\n\n.about-txt p:nth-child(2) {\n  font-size: 30px;\n  text-align: center;\n}\n\n.about-img {\n  display: flex;\n  gap: 120px;\n}\n\n.about-img img {\n  border-radius: 30px;\n  height: 176px;\n  transition: all 0.2s ease;\n}\n\n.about-img img:nth-child(3) {\n  width: 250px;\n  height: 176px;\n}\n\n@keyframes fadeIn {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"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","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');\n@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');\n\n@font-face {\n  font-family: 'Bitsumis';\n  /* src: url('../fonts/BITSUMIS.ttf') format('ttf'); */\n  src: url('../fonts/bitsumis-webfont.woff2') format('woff2'),\n    url('../fonts/bitsumis-webfont.woff') format('woff');\n  font-weight: normal;\n  font-style: normal;\n}\n\n*,\n*::after,\n*::before {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\n:root {\n  --header-color: rgba(17, 24, 39, 0.9);\n  --st-color: #fafaf9;\n  --nd-color: black;\n\n  --st-font: 'Bitsumis';\n  --nd-font: 'Orbitron';\n  --rd-font: 'Rajdhani';\n}\n\nbody::after {\n  content: '';\n  background: url(../assets/bg.jpeg);\n  opacity: 70%;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  position: absolute;\n  z-index: -1;\n}\n\n#content {\n  width: 100vw;\n  height: 100vh;\n}\n\n.info {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 665px;\n}\n\n.snack1 {\n  height: 324px;\n  width: 488px;\n}\n\n.header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: 100px;\n  background-color: var(--header-color);\n  padding-left: 60px;\n  padding-right: 60px;\n}\n\n.title-div {\n  display: flex;\n  align-items: center;\n  gap: 20px;\n}\n\n.title-div p {\n  font-family: var(--st-font);\n  font-size: 35px;\n  color: var(--st-color);\n  cursor: pointer;\n}\n\n.nut-icon {\n  color: var(--st-color);\n  cursor: pointer;\n}\n\n.pages {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 70px;\n  width: 635px;\n  height: 50px;\n  font-size: 0;\n  list-style-type: none;\n  font-family: var(--nd-font);\n  color: var(--st-color);\n  position: relative;\n}\n\n.pages li {\n  font-size: 15px;\n  cursor: pointer;\n  position: relative;\n  text-align: center;\n  z-index: 1;\n}\n\n.pages .current-box {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  width: 140px;\n  height: 100%;\n  border: 4px solid var(--st-color);\n  border-radius: 24px;\n  z-index: 0;\n  transition: all 0.5s ease 0s;\n}\n\n.pages .start,\nli:nth-child(4).current ~ .current-box {\n  width: 120px;\n  left: 512px;\n}\n\n.pages .start,\nli:nth-child(3).current ~ .current-box {\n  left: 343px;\n}\n\n.pages .start,\nli:nth-child(2).current ~ .current-box {\n  left: 173px;\n}\n\n.pages .start,\nli:nth-child(1).current ~ .current-box {\n  width: 120px;\n  left: 3px;\n}\n\n.pages li:nth-child(1) {\n  width: 100px;\n}\n\n.pages li:nth-child(2) {\n  width: 100px;\n}\n\n.pages li:nth-child(3) {\n  width: 100px;\n}\n\n.pages li:nth-child(4) {\n  width: 100px;\n}\n\n.home-content {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  width: 92vw;\n  height: 574px;\n  background-color: rgba(250, 250, 249, 0.9);\n  border-radius: 50px;\n  animation: fadeIn 1s;\n}\n\n.header-home {\n  display: flex;\n  align-items: center;\n  gap: 30px;\n  position: relative;\n}\n\n.header-home p {\n  margin-top: 10px;\n  font-size: 45px;\n  font-weight: 900;\n  -webkit-text-stroke: 1px black;\n}\n\n.header-home,\n.home-info {\n  font-family: var(--rd-font);\n}\n\n.home-info {\n  display: flex;\n  gap: 34px;\n  margin-top: 45px;\n  margin-left: 144px;\n  margin-right: 144px;\n}\n\n.home-txt {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  gap: 50px;\n  font-size: 33px;\n  font-weight: 800;\n}\n\n.home-txt hr {\n  display: flex;\n  align-items: center;\n  height: 4px;\n  margin-left: -10px;\n  width: 465px;\n  border: none;\n  border-top-right-radius: 5px;\n  border-bottom-right-radius: 5px;\n  background-color: white;\n}\n\n.home-txt hr::before {\n  border-radius: 50%;\n  content: '';\n  width: 15px;\n  height: 15px;\n  position: absolute;\n  background-color: white;\n}\n\n.snack1 {\n  border-radius: 74px;\n}\n\n.info-cont2 {\n  max-width: 400px;\n}\n\n.menu-content {\n  display: grid;\n  place-content: center;\n  min-width: 574px;\n  width: 92vw;\n  height: 574px;\n  border-radius: 50px;\n  background-color: rgba(250, 250, 249, 0.9);\n  animation: fadeIn 1s;\n}\n\n.cake img {\n  border-radius: 35px;\n  width: 470px;\n  height: 400px;\n}\n\n.img-cont {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 50px;\n  padding: 20px;\n  width: 550px;\n  height: 140rem;\n}\n\n.scrollbar {\n  display: flex;\n  justify-content: center;\n  height: 500px;\n  width: 92vw;\n  overflow: auto;\n}\n\n.cake {\n  overflow: hidden;\n  flex-direction: row-reverse;\n  display: flex;\n  height: 400px;\n  width: 470px;\n  transition: all 0.2s ease;\n}\n\n.cake:hover,\n.about-img img:hover {\n  transform: scale(1.1, 1.1);\n}\n\n.cake:active {\n  transform: scale(1, 1);\n}\n\n.tag {\n  font-size: 10px;\n  margin-top: 35px;\n  height: 45px;\n  min-width: 220px;\n  width: 200px;\n  color: white;\n  border-top: 26px solid rgba(251, 113, 133, 0.9);\n  border-bottom: 26px solid rgba(251, 113, 133, 0.9);\n  border-right: 14px solid transparent;\n  display: flex;\n  align-items: center;\n  white-space: nowrap;\n  transition: 0.2s;\n  font-family: var(--nd-font);\n  position: relative;\n}\n\n.tag p {\n  margin-left: 20px;\n}\n\n.cake:hover .tag {\n  transform: translateX(100%);\n}\n\n.home-info .cake {\n  margin-left: 30px;\n  width: 488px;\n  height: 324px;\n}\n\n.home-info .cake p {\n  margin-left: 30px;\n}\n\n.home-info .cake img {\n  width: 488px;\n  height: 324px;\n}\n\n.about-content {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 50px;\n  width: 92vw;\n  height: 574px;\n  padding: 100px;\n  background-color: rgba(250, 250, 249, 0.9);\n  border-radius: 50px;\n  animation: fadeIn 1s;\n}\n\n.about-txt {\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  gap: 40px;\n  font-family: var(--rd-font);\n}\n\n.about-txt p:nth-child(1) {\n  font-weight: bolder;\n  -webkit-text-stroke: 1px black;\n  font-size: 45px;\n  position: relative;\n}\n\n.about-txt p:nth-child(1)::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  margin-left: -75px;\n  bottom: 50%;\n  height: 2px;\n  width: 45px;\n  background-color: var(--nd-color);\n}\n\n.about-txt p:nth-child(1)::before {\n  content: '';\n  position: absolute;\n  right: 0;\n  margin-right: -75px;\n  bottom: 50%;\n  height: 2px;\n  width: 45px;\n  background-color: var(--nd-color);\n}\n\n.about-txt p:nth-child(2) {\n  font-size: 30px;\n  text-align: center;\n}\n\n.about-img {\n  display: flex;\n  gap: 120px;\n}\n\n.about-img img {\n  border-radius: 30px;\n  height: 176px;\n  transition: all 0.2s ease;\n}\n\n.about-img img:nth-child(3) {\n  width: 250px;\n  height: 176px;\n}\n\n@keyframes fadeIn {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -593,8 +593,66 @@ module.exports = styleTagTransform;
 /*!**********************!*\
   !*** ./src/about.js ***!
   \**********************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ getAbout)
+/* harmony export */ });
+/* harmony import */ var _assets_about1_jpeg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/about1.jpeg */ "./src/assets/about1.jpeg");
+/* harmony import */ var _assets_about2_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/about2.jpeg */ "./src/assets/about2.jpeg");
+/* harmony import */ var _assets_about3_jpeg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/about3.jpeg */ "./src/assets/about3.jpeg");
+
+
+
+
+function aboutContent() {
+  const aboutCont = document.createElement('div');
+  aboutCont.classList.add('about-content');
+
+  const aboutTxtDiv = document.createElement('div');
+  aboutTxtDiv.classList.add('about-txt');
+
+  const aboutImgDiv = document.createElement('div');
+  aboutImgDiv.classList.add('about-img');
+
+  aboutCont.appendChild(aboutTxtDiv);
+
+  aboutTxtDiv.appendChild(createParagraph('ABOUT US'));
+  aboutTxtDiv.appendChild(
+    createParagraph(
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien tempor aliquam id est. Fringilla tortor tristique tincidunt at interdum tristique. Posuere vulputate amet sit montes, ut id ullamcorper.'
+    )
+  );
+
+  aboutCont.appendChild(aboutImgDiv);
+
+  aboutImgDiv.appendChild(createAboutImg(_assets_about1_jpeg__WEBPACK_IMPORTED_MODULE_0__));
+  aboutImgDiv.appendChild(createAboutImg(_assets_about2_jpeg__WEBPACK_IMPORTED_MODULE_1__));
+  aboutImgDiv.appendChild(createAboutImg(_assets_about3_jpeg__WEBPACK_IMPORTED_MODULE_2__));
+
+  return aboutCont;
+}
+
+function createParagraph(txt) {
+  const p = document.createElement('p');
+  p.textContent = txt;
+
+  return p;
+}
+
+function createAboutImg(imgName) {
+  const img = document.createElement('img');
+  img.src = imgName;
+
+  return img;
+}
+
+function getAbout() {
+  const infoCont = document.querySelector('.info');
+  infoCont.appendChild(aboutContent());
+}
 
 
 /***/ }),
@@ -641,6 +699,15 @@ function homeContent() {
   const homeInfoContainer = document.createElement('div');
   homeInfoContainer.classList.add('home-info');
 
+  const cakeDiv = document.createElement('div');
+  cakeDiv.classList.add('cake');
+
+  const tagDiv = document.createElement('div');
+  tagDiv.classList.add('tag');
+
+  const tagP = document.createElement('p');
+  tagP.textContent = 'Scraps Muffins $ 4.99';
+
   const homeInfoImage = document.createElement('img');
   homeInfoImage.src = _assets_snack1_jpeg__WEBPACK_IMPORTED_MODULE_0__;
   homeInfoImage.setAttribute('draggable', 'false');
@@ -653,7 +720,7 @@ function homeContent() {
   InfoTxtCont.classList.add('info-cont1');
 
   const homeInfoTxt1 = document.createElement('p');
-  homeInfoTxt1.textContent = 'best quality for the lowest price';
+  homeInfoTxt1.textContent = 'Best Quality For The Lowest Price.';
 
   const homeInfoLine = document.createElement('hr');
 
@@ -665,7 +732,11 @@ function homeContent() {
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate elit eu neque tellus scelerisque odio.';
 
   homeInfoContainer.appendChild(homeInfoTxtCont);
-  homeInfoContainer.appendChild(homeInfoImage);
+  homeInfoContainer.appendChild(cakeDiv);
+
+  cakeDiv.appendChild(homeInfoImage);
+  cakeDiv.appendChild(tagDiv);
+  tagDiv.appendChild(tagP);
 
   homeInfoTxtCont.appendChild(InfoTxtCont);
   homeInfoTxtCont.appendChild(InfoTxtCont2);
@@ -707,7 +778,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home */ "./src/home.js");
 /* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu */ "./src/menu.js");
 /* harmony import */ var _about__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./about */ "./src/about.js");
-/* harmony import */ var _about__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_about__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./contact */ "./src/contact.js");
 /* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_contact__WEBPACK_IMPORTED_MODULE_3__);
 
@@ -945,6 +1015,24 @@ function changeContent() {
       (0,_menu__WEBPACK_IMPORTED_MODULE_1__["default"])();
     }
   });
+
+  AboutBtn.addEventListener('click', e => {
+    if (infoCont.classList.contains('about')) {
+      if (e.target.classList.contains('current')) return;
+      changeBetweenPages();
+      infoCont.textContent = '';
+      (0,_about__WEBPACK_IMPORTED_MODULE_2__["default"])();
+    }
+  });
+
+  ContactBtn.addEventListener('click', e => {
+    if (infoCont.classList.contains('contact')) {
+      if (e.target.classList.contains('current')) return;
+      changeBetweenPages();
+      infoCont.textContent = '';
+      _contact__WEBPACK_IMPORTED_MODULE_3___default()();
+    }
+  });
 }
 
 // Load all the content
@@ -1052,6 +1140,39 @@ function getMenu() {
   infoCont.appendChild(menuContent());
 }
 
+
+/***/ }),
+
+/***/ "./src/assets/about1.jpeg":
+/*!********************************!*\
+  !*** ./src/assets/about1.jpeg ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "about1.jpeg";
+
+/***/ }),
+
+/***/ "./src/assets/about2.jpeg":
+/*!********************************!*\
+  !*** ./src/assets/about2.jpeg ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "about2.jpeg";
+
+/***/ }),
+
+/***/ "./src/assets/about3.jpeg":
+/*!********************************!*\
+  !*** ./src/assets/about3.jpeg ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "about3.jpeg";
 
 /***/ }),
 

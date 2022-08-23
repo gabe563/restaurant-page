@@ -233,6 +233,24 @@ function changeContent() {
       getMenu();
     }
   });
+
+  AboutBtn.addEventListener('click', e => {
+    if (infoCont.classList.contains('about')) {
+      if (e.target.classList.contains('current')) return;
+      changeBetweenPages();
+      infoCont.textContent = '';
+      getAbout();
+    }
+  });
+
+  ContactBtn.addEventListener('click', e => {
+    if (infoCont.classList.contains('contact')) {
+      if (e.target.classList.contains('current')) return;
+      changeBetweenPages();
+      infoCont.textContent = '';
+      getContact();
+    }
+  });
 }
 
 // Load all the content
