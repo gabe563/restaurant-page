@@ -259,7 +259,7 @@ export default function loadUp() {
 
   contentDiv.appendChild(header());
   contentDiv.appendChild(mainContent());
-  getHome();
+  getContact();
   addInfoClass();
   changeContent();
   changeBetweenPages();

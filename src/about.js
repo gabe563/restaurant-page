@@ -14,7 +14,7 @@ function aboutContent() {
 
   aboutCont.appendChild(aboutTxtDiv);
 
-  aboutTxtDiv.appendChild(createParagraph('ABOUT US'));
+  aboutTxtDiv.appendChild(createParagraph('About Us'));
   aboutTxtDiv.appendChild(
     createParagraph(
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien tempor aliquam id est. Fringilla tortor tristique tincidunt at interdum tristique. Posuere vulputate amet sit montes, ut id ullamcorper.'
@@ -40,6 +40,7 @@ function createParagraph(txt) {
 function createAboutImg(imgName) {
   const img = document.createElement('img');
   img.src = imgName;
+  img.setAttribute('draggable', 'false');
 
   return img;
 }
