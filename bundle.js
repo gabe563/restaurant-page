@@ -1,4 +1,5 @@
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/styles/main.css":
@@ -7,7 +8,6 @@
   \*******************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -32,7 +32,7 @@ var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_g
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n  font-family: 'Bitsumis';\n  /* src: url('../fonts/BITSUMIS.ttf') format('ttf'); */\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format('woff2'),\n    url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") format('woff');\n  font-weight: normal;\n  font-style: normal;\n}\n\n*,\n*::after,\n*::before {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\n:root {\n  --header-color: rgba(17, 24, 39, 0.9);\n  --st-color: #fafaf9;\n  --nd-color: black;\n\n  --st-font: 'Bitsumis';\n  --nd-font: 'Orbitron';\n  --rd-font: 'Rajdhani';\n}\n\nbody::after {\n  content: '';\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n  opacity: 70%;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  position: absolute;\n  z-index: -1;\n}\n\n#content {\n  width: 100vw;\n  height: 100vh;\n}\n\n.info {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 665px;\n}\n\n.snack1 {\n  height: 324px;\n  width: 488px;\n}\n\n.header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: 100px;\n  background-color: var(--header-color);\n  padding-left: 60px;\n  padding-right: 60px;\n}\n\n.title-div {\n  display: flex;\n  align-items: center;\n  gap: 20px;\n}\n\n.title-div p {\n  font-family: var(--st-font);\n  font-size: 35px;\n  color: var(--st-color);\n  cursor: pointer;\n}\n\n.nut-icon {\n  color: var(--st-color);\n  cursor: pointer;\n}\n\n.pages {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 70px;\n  width: 635px;\n  height: 50px;\n  font-size: 0;\n  list-style-type: none;\n  font-family: var(--nd-font);\n  color: var(--st-color);\n  position: relative;\n}\n\n.pages li {\n  font-size: 15px;\n  cursor: pointer;\n  position: relative;\n  text-align: center;\n  z-index: 1;\n}\n\n.pages .current-box {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  width: 140px;\n  height: 100%;\n  border: 4px solid var(--st-color);\n  border-radius: 24px;\n  z-index: 0;\n  transition: all 0.5s ease 0s;\n}\n\n.pages .start,\nli:nth-child(4).current ~ .current-box {\n  width: 120px;\n  left: 512px;\n}\n\n.pages .start,\nli:nth-child(3).current ~ .current-box {\n  left: 343px;\n}\n\n.pages .start,\nli:nth-child(2).current ~ .current-box {\n  left: 173px;\n}\n\n.pages .start,\nli:nth-child(1).current ~ .current-box {\n  width: 120px;\n  left: 3px;\n}\n\n.pages li:nth-child(1) {\n  width: 100px;\n}\n\n.pages li:nth-child(2) {\n  width: 100px;\n}\n\n.pages li:nth-child(3) {\n  width: 100px;\n}\n\n.pages li:nth-child(4) {\n  width: 100px;\n}\n\n.home-content {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  width: 92vw;\n  height: 574px;\n  background-color: rgba(250, 250, 249, 0.9);\n  border-radius: 50px;\n  animation: fadeIn 1s;\n}\n\n.header-home {\n  display: flex;\n  align-items: center;\n  gap: 30px;\n  position: relative;\n}\n\n.header-home p {\n  margin-top: 10px;\n  font-size: 45px;\n  font-weight: 900;\n  -webkit-text-stroke: 1px black;\n}\n\n.header-home,\n.home-info {\n  font-family: var(--rd-font);\n}\n\n.home-info {\n  display: flex;\n  gap: 34px;\n  margin-top: 45px;\n  margin-left: 144px;\n  margin-right: 144px;\n}\n\n.home-txt {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  gap: 50px;\n  font-size: 33px;\n  font-weight: 800;\n}\n\n.home-txt hr {\n  display: flex;\n  align-items: center;\n  height: 4px;\n  margin-left: -10px;\n  width: 465px;\n  border: none;\n  border-top-right-radius: 5px;\n  border-bottom-right-radius: 5px;\n  background-color: white;\n}\n\n.home-txt hr::before {\n  border-radius: 50%;\n  content: '';\n  width: 15px;\n  height: 15px;\n  position: absolute;\n  background-color: white;\n}\n\n.snack1 {\n  border-radius: 74px;\n}\n\n.info-cont2 {\n  max-width: 400px;\n}\n\n.menu-content {\n  display: grid;\n  place-content: center;\n  min-width: 574px;\n  width: 92vw;\n  height: 574px;\n  border-radius: 50px;\n  background-color: rgba(250, 250, 249, 0.9);\n  animation: fadeIn 1s;\n}\n\n.cake img {\n  border-radius: 35px;\n  width: 470px;\n  height: 400px;\n}\n\n.img-cont {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 50px;\n  padding: 20px;\n  width: 550px;\n  height: 140rem;\n}\n\n.scrollbar {\n  display: flex;\n  justify-content: center;\n  height: 500px;\n  width: 92vw;\n  overflow: auto;\n}\n\n.cake {\n  overflow: hidden;\n  flex-direction: row-reverse;\n  display: flex;\n  height: 400px;\n  width: 470px;\n  transition: all 0.2s ease;\n}\n\n.cake:hover,\n.about-img img:hover {\n  transform: scale(1.1, 1.1);\n}\n\n.cake:active {\n  transform: scale(1, 1);\n}\n\n.tag {\n  font-size: 10px;\n  margin-top: 35px;\n  height: 45px;\n  min-width: 220px;\n  width: 200px;\n  color: white;\n  border-top: 26px solid rgba(251, 113, 133, 0.9);\n  border-bottom: 26px solid rgba(251, 113, 133, 0.9);\n  border-right: 14px solid transparent;\n  display: flex;\n  align-items: center;\n  white-space: nowrap;\n  transition: 0.2s;\n  font-family: var(--nd-font);\n  position: relative;\n}\n\n.tag p {\n  margin-left: 20px;\n}\n\n.cake:hover .tag {\n  transform: translateX(100%);\n}\n\n.home-info .cake {\n  margin-left: 30px;\n  width: 488px;\n  height: 324px;\n}\n\n.home-info .cake p {\n  margin-left: 30px;\n}\n\n.home-info .cake img {\n  width: 488px;\n  height: 324px;\n}\n\n.about-content {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 50px;\n  width: 92vw;\n  height: 574px;\n  padding: 100px;\n  background-color: rgba(250, 250, 249, 0.9);\n  border-radius: 50px;\n  animation: fadeIn 1s;\n}\n\n.about-txt {\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  gap: 40px;\n  font-family: var(--rd-font);\n}\n\n.about-txt p:nth-child(1) {\n  font-weight: bolder;\n  -webkit-text-stroke: 1px black;\n  font-size: 45px;\n  position: relative;\n}\n\n.about-txt p:nth-child(1)::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  margin-left: -75px;\n  bottom: 50%;\n  height: 2px;\n  width: 45px;\n  background-color: var(--nd-color);\n}\n\n.about-txt p:nth-child(1)::before {\n  content: '';\n  position: absolute;\n  right: 0;\n  margin-right: -75px;\n  bottom: 50%;\n  height: 2px;\n  width: 45px;\n  background-color: var(--nd-color);\n}\n\n.about-txt p:nth-child(2) {\n  font-size: 30px;\n  text-align: center;\n}\n\n.about-img {\n  display: flex;\n  gap: 120px;\n}\n\n.about-img img {\n  border-radius: 30px;\n  height: 176px;\n  transition: all 0.2s ease;\n}\n\n.about-img img:nth-child(3) {\n  width: 250px;\n  height: 176px;\n}\n\n@keyframes fadeIn {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"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","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');\n@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');\n\n@font-face {\n  font-family: 'Bitsumis';\n  /* src: url('../fonts/BITSUMIS.ttf') format('ttf'); */\n  src: url('../fonts/bitsumis-webfont.woff2') format('woff2'),\n    url('../fonts/bitsumis-webfont.woff') format('woff');\n  font-weight: normal;\n  font-style: normal;\n}\n\n*,\n*::after,\n*::before {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\n:root {\n  --header-color: rgba(17, 24, 39, 0.9);\n  --st-color: #fafaf9;\n  --nd-color: black;\n\n  --st-font: 'Bitsumis';\n  --nd-font: 'Orbitron';\n  --rd-font: 'Rajdhani';\n}\n\nbody::after {\n  content: '';\n  background: url(../assets/bg.jpeg);\n  opacity: 70%;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  position: absolute;\n  z-index: -1;\n}\n\n#content {\n  width: 100vw;\n  height: 100vh;\n}\n\n.info {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 665px;\n}\n\n.snack1 {\n  height: 324px;\n  width: 488px;\n}\n\n.header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: 100px;\n  background-color: var(--header-color);\n  padding-left: 60px;\n  padding-right: 60px;\n}\n\n.title-div {\n  display: flex;\n  align-items: center;\n  gap: 20px;\n}\n\n.title-div p {\n  font-family: var(--st-font);\n  font-size: 35px;\n  color: var(--st-color);\n  cursor: pointer;\n}\n\n.nut-icon {\n  color: var(--st-color);\n  cursor: pointer;\n}\n\n.pages {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 70px;\n  width: 635px;\n  height: 50px;\n  font-size: 0;\n  list-style-type: none;\n  font-family: var(--nd-font);\n  color: var(--st-color);\n  position: relative;\n}\n\n.pages li {\n  font-size: 15px;\n  cursor: pointer;\n  position: relative;\n  text-align: center;\n  z-index: 1;\n}\n\n.pages .current-box {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  width: 140px;\n  height: 100%;\n  border: 4px solid var(--st-color);\n  border-radius: 24px;\n  z-index: 0;\n  transition: all 0.5s ease 0s;\n}\n\n.pages .start,\nli:nth-child(4).current ~ .current-box {\n  width: 120px;\n  left: 512px;\n}\n\n.pages .start,\nli:nth-child(3).current ~ .current-box {\n  left: 343px;\n}\n\n.pages .start,\nli:nth-child(2).current ~ .current-box {\n  left: 173px;\n}\n\n.pages .start,\nli:nth-child(1).current ~ .current-box {\n  width: 120px;\n  left: 3px;\n}\n\n.pages li:nth-child(1) {\n  width: 100px;\n}\n\n.pages li:nth-child(2) {\n  width: 100px;\n}\n\n.pages li:nth-child(3) {\n  width: 100px;\n}\n\n.pages li:nth-child(4) {\n  width: 100px;\n}\n\n.home-content {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  width: 92vw;\n  height: 574px;\n  background-color: rgba(250, 250, 249, 0.9);\n  border-radius: 50px;\n  animation: fadeIn 1s;\n}\n\n.header-home {\n  display: flex;\n  align-items: center;\n  gap: 30px;\n  position: relative;\n}\n\n.header-home p {\n  margin-top: 10px;\n  font-size: 45px;\n  font-weight: 900;\n  -webkit-text-stroke: 1px black;\n}\n\n.header-home,\n.home-info {\n  font-family: var(--rd-font);\n}\n\n.home-info {\n  display: flex;\n  gap: 34px;\n  margin-top: 45px;\n  margin-left: 144px;\n  margin-right: 144px;\n}\n\n.home-txt {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  gap: 50px;\n  font-size: 33px;\n  font-weight: 800;\n}\n\n.home-txt hr {\n  display: flex;\n  align-items: center;\n  height: 4px;\n  margin-left: -10px;\n  width: 465px;\n  border: none;\n  border-top-right-radius: 5px;\n  border-bottom-right-radius: 5px;\n  background-color: white;\n}\n\n.home-txt hr::before {\n  border-radius: 50%;\n  content: '';\n  width: 15px;\n  height: 15px;\n  position: absolute;\n  background-color: white;\n}\n\n.snack1 {\n  border-radius: 74px;\n}\n\n.info-cont2 {\n  max-width: 400px;\n}\n\n.menu-content {\n  display: grid;\n  place-content: center;\n  min-width: 574px;\n  width: 92vw;\n  height: 574px;\n  border-radius: 50px;\n  background-color: rgba(250, 250, 249, 0.9);\n  animation: fadeIn 1s;\n}\n\n.cake img {\n  border-radius: 35px;\n  width: 470px;\n  height: 400px;\n}\n\n.img-cont {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 50px;\n  padding: 20px;\n  width: 550px;\n  height: 140rem;\n}\n\n.scrollbar {\n  display: flex;\n  justify-content: center;\n  height: 500px;\n  width: 92vw;\n  overflow: auto;\n}\n\n.cake {\n  overflow: hidden;\n  flex-direction: row-reverse;\n  display: flex;\n  height: 400px;\n  width: 470px;\n  transition: all 0.2s ease;\n}\n\n.cake:hover,\n.about-img img:hover {\n  transform: scale(1.1, 1.1);\n}\n\n.cake:active {\n  transform: scale(1, 1);\n}\n\n.tag {\n  font-size: 10px;\n  margin-top: 35px;\n  height: 45px;\n  min-width: 220px;\n  width: 200px;\n  color: white;\n  border-top: 26px solid rgba(251, 113, 133, 0.9);\n  border-bottom: 26px solid rgba(251, 113, 133, 0.9);\n  border-right: 14px solid transparent;\n  display: flex;\n  align-items: center;\n  white-space: nowrap;\n  transition: 0.2s;\n  font-family: var(--nd-font);\n  position: relative;\n}\n\n.tag p {\n  margin-left: 20px;\n}\n\n.cake:hover .tag {\n  transform: translateX(100%);\n}\n\n.home-info .cake {\n  margin-left: 30px;\n  width: 488px;\n  height: 324px;\n}\n\n.home-info .cake p {\n  margin-left: 30px;\n}\n\n.home-info .cake img {\n  width: 488px;\n  height: 324px;\n}\n\n.about-content {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 50px;\n  width: 92vw;\n  height: 574px;\n  padding: 100px;\n  background-color: rgba(250, 250, 249, 0.9);\n  border-radius: 50px;\n  animation: fadeIn 1s;\n}\n\n.about-txt {\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  gap: 40px;\n  font-family: var(--rd-font);\n}\n\n.about-txt p:nth-child(1) {\n  font-weight: bolder;\n  -webkit-text-stroke: 1px black;\n  font-size: 45px;\n  position: relative;\n}\n\n.about-txt p:nth-child(1)::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  margin-left: -75px;\n  bottom: 50%;\n  height: 2px;\n  width: 45px;\n  background-color: var(--nd-color);\n}\n\n.about-txt p:nth-child(1)::before {\n  content: '';\n  position: absolute;\n  right: 0;\n  margin-right: -75px;\n  bottom: 50%;\n  height: 2px;\n  width: 45px;\n  background-color: var(--nd-color);\n}\n\n.about-txt p:nth-child(2) {\n  font-size: 30px;\n  text-align: center;\n}\n\n.about-img {\n  display: flex;\n  gap: 120px;\n}\n\n.about-img img {\n  border-radius: 30px;\n  height: 176px;\n  transition: all 0.2s ease;\n}\n\n.about-img img:nth-child(3) {\n  width: 250px;\n  height: 176px;\n}\n\n@keyframes fadeIn {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n  font-family: 'Bitsumis';\n  /* src: url('../fonts/BITSUMIS.ttf') format('ttf'); */\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format('woff2'),\n    url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") format('woff');\n  font-weight: normal;\n  font-style: normal;\n}\n\n*,\n*::after,\n*::before {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\n:root {\n  --header-color: rgba(17, 24, 39, 0.9);\n  --st-color: #fafaf9;\n  --nd-color: black;\n\n  --st-font: 'Bitsumis';\n  --nd-font: 'Orbitron';\n  --rd-font: 'Rajdhani';\n}\n\nbody::after {\n  content: '';\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n  opacity: 70%;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  position: absolute;\n  z-index: -1;\n}\n\n#content {\n  width: 100vw;\n  height: 100vh;\n}\n\n.info {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 665px;\n}\n\n.snack1 {\n  height: 324px;\n  width: 488px;\n}\n\n.header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: 100px;\n  background-color: var(--header-color);\n  padding-left: 60px;\n  padding-right: 60px;\n}\n\n.title-div {\n  display: flex;\n  align-items: center;\n  gap: 20px;\n}\n\n.title-div p {\n  font-family: var(--st-font);\n  font-size: 35px;\n  color: var(--st-color);\n  cursor: pointer;\n}\n\n.nut-icon {\n  color: var(--st-color);\n  cursor: pointer;\n}\n\n.pages {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 70px;\n  width: 635px;\n  height: 50px;\n  font-size: 0;\n  list-style-type: none;\n  font-family: var(--nd-font);\n  color: var(--st-color);\n  position: relative;\n}\n\n.pages li {\n  font-size: 15px;\n  cursor: pointer;\n  position: relative;\n  text-align: center;\n  z-index: 1;\n}\n\n.pages .current-box {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  width: 140px;\n  height: 100%;\n  border: 4px solid var(--st-color);\n  border-radius: 24px;\n  z-index: 0;\n  transition: all 0.5s ease 0s;\n}\n\n.pages .start,\nli:nth-child(4).current ~ .current-box {\n  width: 120px;\n  left: 512px;\n}\n\n.pages .start,\nli:nth-child(3).current ~ .current-box {\n  left: 343px;\n}\n\n.pages .start,\nli:nth-child(2).current ~ .current-box {\n  left: 173px;\n}\n\n.pages .start,\nli:nth-child(1).current ~ .current-box {\n  width: 120px;\n  left: 3px;\n}\n\n.pages li:nth-child(1) {\n  width: 100px;\n}\n\n.pages li:nth-child(2) {\n  width: 100px;\n}\n\n.pages li:nth-child(3) {\n  width: 100px;\n}\n\n.pages li:nth-child(4) {\n  width: 100px;\n}\n\n.home-content {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  width: 92vw;\n  height: 574px;\n  background-color: rgba(250, 250, 249, 0.9);\n  border-radius: 50px;\n  animation: fadeIn 1s;\n}\n\n.header-home {\n  display: flex;\n  align-items: center;\n  gap: 30px;\n  position: relative;\n}\n\n.header-home p {\n  margin-top: 10px;\n  font-size: 45px;\n  font-weight: 900;\n  -webkit-text-stroke: 1px black;\n}\n\n.header-home,\n.home-info {\n  font-family: var(--rd-font);\n}\n\n.home-info {\n  display: flex;\n  gap: 34px;\n  margin-top: 45px;\n  margin-left: 144px;\n  margin-right: 144px;\n}\n\n.home-txt {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  gap: 50px;\n  font-size: 33px;\n  font-weight: 800;\n}\n\n.home-txt hr {\n  display: flex;\n  align-items: center;\n  height: 4px;\n  margin-left: -10px;\n  width: 465px;\n  border: none;\n  border-top-right-radius: 5px;\n  border-bottom-right-radius: 5px;\n  background-color: white;\n}\n\n.home-txt hr::before {\n  border-radius: 50%;\n  content: '';\n  width: 15px;\n  height: 15px;\n  position: absolute;\n  background-color: white;\n}\n\n.snack1 {\n  border-radius: 74px;\n}\n\n.info-cont2 {\n  max-width: 400px;\n}\n\n.menu-content {\n  display: grid;\n  place-content: center;\n  min-width: 574px;\n  width: 92vw;\n  height: 574px;\n  border-radius: 50px;\n  background-color: rgba(250, 250, 249, 0.9);\n  animation: fadeIn 1s;\n}\n\n.cake img {\n  border-radius: 35px;\n  width: 470px;\n  height: 400px;\n}\n\n.img-cont {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 50px;\n  padding: 20px;\n  width: 550px;\n  height: 140rem;\n}\n\n.scrollbar {\n  display: flex;\n  justify-content: center;\n  height: 500px;\n  width: 92vw;\n  overflow: auto;\n}\n\n.cake {\n  overflow: hidden;\n  flex-direction: row-reverse;\n  display: flex;\n  height: 400px;\n  width: 470px;\n  transition: all 0.2s ease;\n}\n\n.cake:hover,\n.about-img img:hover,\n.contact-icons [icon]:hover,\n.order-icons img:hover {\n  transform: scale(1.1, 1.1);\n}\n\n.cake:active,\n.contact-icons [icon]:active,\n.order-icons img:active {\n  transform: scale(1, 1);\n}\n\n.tag {\n  font-size: 10px;\n  margin-top: 35px;\n  height: 45px;\n  min-width: 220px;\n  width: 200px;\n  color: white;\n  border-top: 26px solid rgba(251, 113, 133, 0.9);\n  border-bottom: 26px solid rgba(251, 113, 133, 0.9);\n  border-right: 14px solid transparent;\n  display: flex;\n  align-items: center;\n  white-space: nowrap;\n  transition: 0.2s;\n  font-family: var(--nd-font);\n  position: relative;\n}\n\n.tag p {\n  margin-left: 20px;\n}\n\n.cake:hover .tag {\n  transform: translateX(100%);\n}\n\n.home-info .cake {\n  margin-left: 30px;\n  width: 488px;\n  height: 324px;\n}\n\n.home-info .cake p {\n  margin-left: 30px;\n}\n\n.home-info .cake img {\n  width: 488px;\n  height: 324px;\n}\n\n.about-content {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 50px;\n  width: 92vw;\n  height: 574px;\n  padding: 100px;\n  background-color: rgba(250, 250, 249, 0.9);\n  border-radius: 50px;\n  animation: fadeIn 1s;\n}\n\n.about-txt {\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  gap: 40px;\n  font-family: var(--rd-font);\n}\n\n.about-txt p:nth-child(1) {\n  font-weight: bolder;\n  -webkit-text-stroke: 1px black;\n  font-size: 45px;\n  position: relative;\n}\n\n.about-txt p:nth-child(1)::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  margin-left: -75px;\n  bottom: 50%;\n  height: 2px;\n  width: 45px;\n  background-color: var(--nd-color);\n}\n\n.about-txt p:nth-child(1)::before {\n  content: '';\n  position: absolute;\n  right: 0;\n  margin-right: -75px;\n  bottom: 50%;\n  height: 2px;\n  width: 45px;\n  background-color: var(--nd-color);\n}\n\n.about-txt p:nth-child(2) {\n  font-size: 30px;\n  text-align: center;\n}\n\n.about-img {\n  display: flex;\n  gap: 120px;\n}\n\n.about-img img {\n  border-radius: 30px;\n  height: 176px;\n  transition: all 0.2s ease;\n}\n\n.about-img img:nth-child(3) {\n  width: 250px;\n  height: 176px;\n}\n\n.contact-content {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 22rem;\n  width: 92vw;\n  height: 574px;\n  background-color: rgba(250, 250, 249, 0.9);\n  border-radius: 50px;\n  animation: fadeIn 1s;\n  position: relative;\n}\n\n.arrow {\n  border: solid black;\n  border-radius: 2px;\n  border-width: 0 4px 4px 0;\n  display: inline-block;\n  padding: 10px;\n}\n\n.down {\n  transform: rotate(45deg);\n  -webkit-transform: rotate(45deg);\n}\n\n.contact-icons {\n  display: flex;\n  justify-content: center;\n  gap: 36px;\n}\n\n.contact-icons [icon] {\n  cursor: pointer;\n  transition: all 0.2s ease;\n}\n\n.contact-icons [icon='akar-icons:facebook-fill'] {\n  color: #1973ea;\n}\n\na {\n  color: black;\n}\n\n.contact-icons [icon='akar-icons:twitter-fill'] {\n  color: #1d97e8;\n}\n\n.contact-box {\n  display: flex;\n  flex-direction: column;\n  gap: 40px;\n}\n\n.contact-header {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  font-family: var(--rd-font);\n}\n\n.contact-header p {\n  -webkit-text-stroke: 1px black;\n  font-weight: 900;\n  font-size: 45px;\n  position: relative;\n}\n\n.contact-header p::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  margin-left: -75px;\n  bottom: 50%;\n  height: 2px;\n  width: 45px;\n  background-color: var(--nd-color);\n}\n\n.contact-header p::before {\n  content: '';\n  position: absolute;\n  right: 0;\n  margin-right: -75px;\n  bottom: 50%;\n  height: 2px;\n  width: 45px;\n  background-color: var(--nd-color);\n}\n\n.contact-info {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 45px;\n  font-family: var(--nd-font);\n}\n\n.contact-info p {\n  font-size: 20px;\n}\n\n.contact-info p:first-child {\n  font-weight: 900;\n}\n\n.contact-info p:last-child {\n  font-weight: 900;\n  font-size: 24px;\n}\n\n.order-box {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 40px;\n}\n\n.order-header {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.order-header p {\n  -webkit-text-stroke: 1px black;\n  font-weight: 900;\n  font-size: 45px;\n  position: relative;\n  font-family: var(--rd-font);\n}\n\n.order-header p::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  margin-left: -75px;\n  bottom: 50%;\n  height: 2px;\n  width: 45px;\n  background-color: var(--nd-color);\n}\n\n.order-header p::before {\n  content: '';\n  position: absolute;\n  right: 0;\n  margin-right: -75px;\n  bottom: 50%;\n  height: 2px;\n  width: 45px;\n  background-color: var(--nd-color);\n}\n\n.order-info {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 30px;\n}\n\n.order-icons {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin-left: 8px;\n}\n\n.order-icons img {\n  transition: all 0.2s ease;\n  cursor: pointer;\n}\n\n.order-icons img:first-child {\n  margin-right: 10px;\n  width: 65px;\n}\n\n.order-icons img:nth-child(2) {\n  width: 86px;\n}\n\n.order-icons img:last-child {\n  width: 86px;\n}\n\n.map {\n  width: 270px;\n  height: 222px;\n}\n\n.contact-line {\n  width: 2px;\n  height: 27rem;\n  border-radius: 2px;\n  background-color: var(--nd-color);\n  border: none;\n  position: absolute;\n}\n\n@keyframes fadeIn {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"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","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');\n@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');\n\n@font-face {\n  font-family: 'Bitsumis';\n  /* src: url('../fonts/BITSUMIS.ttf') format('ttf'); */\n  src: url('../fonts/bitsumis-webfont.woff2') format('woff2'),\n    url('../fonts/bitsumis-webfont.woff') format('woff');\n  font-weight: normal;\n  font-style: normal;\n}\n\n*,\n*::after,\n*::before {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\n:root {\n  --header-color: rgba(17, 24, 39, 0.9);\n  --st-color: #fafaf9;\n  --nd-color: black;\n\n  --st-font: 'Bitsumis';\n  --nd-font: 'Orbitron';\n  --rd-font: 'Rajdhani';\n}\n\nbody::after {\n  content: '';\n  background: url(../assets/bg.jpeg);\n  opacity: 70%;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  position: absolute;\n  z-index: -1;\n}\n\n#content {\n  width: 100vw;\n  height: 100vh;\n}\n\n.info {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 665px;\n}\n\n.snack1 {\n  height: 324px;\n  width: 488px;\n}\n\n.header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: 100px;\n  background-color: var(--header-color);\n  padding-left: 60px;\n  padding-right: 60px;\n}\n\n.title-div {\n  display: flex;\n  align-items: center;\n  gap: 20px;\n}\n\n.title-div p {\n  font-family: var(--st-font);\n  font-size: 35px;\n  color: var(--st-color);\n  cursor: pointer;\n}\n\n.nut-icon {\n  color: var(--st-color);\n  cursor: pointer;\n}\n\n.pages {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 70px;\n  width: 635px;\n  height: 50px;\n  font-size: 0;\n  list-style-type: none;\n  font-family: var(--nd-font);\n  color: var(--st-color);\n  position: relative;\n}\n\n.pages li {\n  font-size: 15px;\n  cursor: pointer;\n  position: relative;\n  text-align: center;\n  z-index: 1;\n}\n\n.pages .current-box {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  width: 140px;\n  height: 100%;\n  border: 4px solid var(--st-color);\n  border-radius: 24px;\n  z-index: 0;\n  transition: all 0.5s ease 0s;\n}\n\n.pages .start,\nli:nth-child(4).current ~ .current-box {\n  width: 120px;\n  left: 512px;\n}\n\n.pages .start,\nli:nth-child(3).current ~ .current-box {\n  left: 343px;\n}\n\n.pages .start,\nli:nth-child(2).current ~ .current-box {\n  left: 173px;\n}\n\n.pages .start,\nli:nth-child(1).current ~ .current-box {\n  width: 120px;\n  left: 3px;\n}\n\n.pages li:nth-child(1) {\n  width: 100px;\n}\n\n.pages li:nth-child(2) {\n  width: 100px;\n}\n\n.pages li:nth-child(3) {\n  width: 100px;\n}\n\n.pages li:nth-child(4) {\n  width: 100px;\n}\n\n.home-content {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  width: 92vw;\n  height: 574px;\n  background-color: rgba(250, 250, 249, 0.9);\n  border-radius: 50px;\n  animation: fadeIn 1s;\n}\n\n.header-home {\n  display: flex;\n  align-items: center;\n  gap: 30px;\n  position: relative;\n}\n\n.header-home p {\n  margin-top: 10px;\n  font-size: 45px;\n  font-weight: 900;\n  -webkit-text-stroke: 1px black;\n}\n\n.header-home,\n.home-info {\n  font-family: var(--rd-font);\n}\n\n.home-info {\n  display: flex;\n  gap: 34px;\n  margin-top: 45px;\n  margin-left: 144px;\n  margin-right: 144px;\n}\n\n.home-txt {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  gap: 50px;\n  font-size: 33px;\n  font-weight: 800;\n}\n\n.home-txt hr {\n  display: flex;\n  align-items: center;\n  height: 4px;\n  margin-left: -10px;\n  width: 465px;\n  border: none;\n  border-top-right-radius: 5px;\n  border-bottom-right-radius: 5px;\n  background-color: white;\n}\n\n.home-txt hr::before {\n  border-radius: 50%;\n  content: '';\n  width: 15px;\n  height: 15px;\n  position: absolute;\n  background-color: white;\n}\n\n.snack1 {\n  border-radius: 74px;\n}\n\n.info-cont2 {\n  max-width: 400px;\n}\n\n.menu-content {\n  display: grid;\n  place-content: center;\n  min-width: 574px;\n  width: 92vw;\n  height: 574px;\n  border-radius: 50px;\n  background-color: rgba(250, 250, 249, 0.9);\n  animation: fadeIn 1s;\n}\n\n.cake img {\n  border-radius: 35px;\n  width: 470px;\n  height: 400px;\n}\n\n.img-cont {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 50px;\n  padding: 20px;\n  width: 550px;\n  height: 140rem;\n}\n\n.scrollbar {\n  display: flex;\n  justify-content: center;\n  height: 500px;\n  width: 92vw;\n  overflow: auto;\n}\n\n.cake {\n  overflow: hidden;\n  flex-direction: row-reverse;\n  display: flex;\n  height: 400px;\n  width: 470px;\n  transition: all 0.2s ease;\n}\n\n.cake:hover,\n.about-img img:hover,\n.contact-icons [icon]:hover,\n.order-icons img:hover {\n  transform: scale(1.1, 1.1);\n}\n\n.cake:active,\n.contact-icons [icon]:active,\n.order-icons img:active {\n  transform: scale(1, 1);\n}\n\n.tag {\n  font-size: 10px;\n  margin-top: 35px;\n  height: 45px;\n  min-width: 220px;\n  width: 200px;\n  color: white;\n  border-top: 26px solid rgba(251, 113, 133, 0.9);\n  border-bottom: 26px solid rgba(251, 113, 133, 0.9);\n  border-right: 14px solid transparent;\n  display: flex;\n  align-items: center;\n  white-space: nowrap;\n  transition: 0.2s;\n  font-family: var(--nd-font);\n  position: relative;\n}\n\n.tag p {\n  margin-left: 20px;\n}\n\n.cake:hover .tag {\n  transform: translateX(100%);\n}\n\n.home-info .cake {\n  margin-left: 30px;\n  width: 488px;\n  height: 324px;\n}\n\n.home-info .cake p {\n  margin-left: 30px;\n}\n\n.home-info .cake img {\n  width: 488px;\n  height: 324px;\n}\n\n.about-content {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 50px;\n  width: 92vw;\n  height: 574px;\n  padding: 100px;\n  background-color: rgba(250, 250, 249, 0.9);\n  border-radius: 50px;\n  animation: fadeIn 1s;\n}\n\n.about-txt {\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  gap: 40px;\n  font-family: var(--rd-font);\n}\n\n.about-txt p:nth-child(1) {\n  font-weight: bolder;\n  -webkit-text-stroke: 1px black;\n  font-size: 45px;\n  position: relative;\n}\n\n.about-txt p:nth-child(1)::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  margin-left: -75px;\n  bottom: 50%;\n  height: 2px;\n  width: 45px;\n  background-color: var(--nd-color);\n}\n\n.about-txt p:nth-child(1)::before {\n  content: '';\n  position: absolute;\n  right: 0;\n  margin-right: -75px;\n  bottom: 50%;\n  height: 2px;\n  width: 45px;\n  background-color: var(--nd-color);\n}\n\n.about-txt p:nth-child(2) {\n  font-size: 30px;\n  text-align: center;\n}\n\n.about-img {\n  display: flex;\n  gap: 120px;\n}\n\n.about-img img {\n  border-radius: 30px;\n  height: 176px;\n  transition: all 0.2s ease;\n}\n\n.about-img img:nth-child(3) {\n  width: 250px;\n  height: 176px;\n}\n\n.contact-content {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 22rem;\n  width: 92vw;\n  height: 574px;\n  background-color: rgba(250, 250, 249, 0.9);\n  border-radius: 50px;\n  animation: fadeIn 1s;\n  position: relative;\n}\n\n.arrow {\n  border: solid black;\n  border-radius: 2px;\n  border-width: 0 4px 4px 0;\n  display: inline-block;\n  padding: 10px;\n}\n\n.down {\n  transform: rotate(45deg);\n  -webkit-transform: rotate(45deg);\n}\n\n.contact-icons {\n  display: flex;\n  justify-content: center;\n  gap: 36px;\n}\n\n.contact-icons [icon] {\n  cursor: pointer;\n  transition: all 0.2s ease;\n}\n\n.contact-icons [icon='akar-icons:facebook-fill'] {\n  color: #1973ea;\n}\n\na {\n  color: black;\n}\n\n.contact-icons [icon='akar-icons:twitter-fill'] {\n  color: #1d97e8;\n}\n\n.contact-box {\n  display: flex;\n  flex-direction: column;\n  gap: 40px;\n}\n\n.contact-header {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  font-family: var(--rd-font);\n}\n\n.contact-header p {\n  -webkit-text-stroke: 1px black;\n  font-weight: 900;\n  font-size: 45px;\n  position: relative;\n}\n\n.contact-header p::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  margin-left: -75px;\n  bottom: 50%;\n  height: 2px;\n  width: 45px;\n  background-color: var(--nd-color);\n}\n\n.contact-header p::before {\n  content: '';\n  position: absolute;\n  right: 0;\n  margin-right: -75px;\n  bottom: 50%;\n  height: 2px;\n  width: 45px;\n  background-color: var(--nd-color);\n}\n\n.contact-info {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 45px;\n  font-family: var(--nd-font);\n}\n\n.contact-info p {\n  font-size: 20px;\n}\n\n.contact-info p:first-child {\n  font-weight: 900;\n}\n\n.contact-info p:last-child {\n  font-weight: 900;\n  font-size: 24px;\n}\n\n.order-box {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 40px;\n}\n\n.order-header {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.order-header p {\n  -webkit-text-stroke: 1px black;\n  font-weight: 900;\n  font-size: 45px;\n  position: relative;\n  font-family: var(--rd-font);\n}\n\n.order-header p::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  margin-left: -75px;\n  bottom: 50%;\n  height: 2px;\n  width: 45px;\n  background-color: var(--nd-color);\n}\n\n.order-header p::before {\n  content: '';\n  position: absolute;\n  right: 0;\n  margin-right: -75px;\n  bottom: 50%;\n  height: 2px;\n  width: 45px;\n  background-color: var(--nd-color);\n}\n\n.order-info {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 30px;\n}\n\n.order-icons {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin-left: 8px;\n}\n\n.order-icons img {\n  transition: all 0.2s ease;\n  cursor: pointer;\n}\n\n.order-icons img:first-child {\n  margin-right: 10px;\n  width: 65px;\n}\n\n.order-icons img:nth-child(2) {\n  width: 86px;\n}\n\n.order-icons img:last-child {\n  width: 86px;\n}\n\n.map {\n  width: 270px;\n  height: 222px;\n}\n\n.contact-line {\n  width: 2px;\n  height: 27rem;\n  border-radius: 2px;\n  background-color: var(--nd-color);\n  border: none;\n  position: absolute;\n}\n\n@keyframes fadeIn {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -45,7 +45,6 @@ ___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n  font-family: 'Bitsumis
   \*****************************************************/
 /***/ ((module) => {
 
-"use strict";
 
 
 /*
@@ -157,7 +156,6 @@ module.exports = function (cssWithMappingToString) {
   \********************************************************/
 /***/ ((module) => {
 
-"use strict";
 
 
 module.exports = function (url, options) {
@@ -196,7 +194,6 @@ module.exports = function (url, options) {
   \************************************************************/
 /***/ ((module) => {
 
-"use strict";
 
 
 module.exports = function (item) {
@@ -228,7 +225,6 @@ module.exports = function (item) {
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -283,7 +279,6 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
   \****************************************************************************/
 /***/ ((module) => {
 
-"use strict";
 
 
 var stylesInDOM = [];
@@ -397,7 +392,6 @@ module.exports = function (list, options) {
   \********************************************************************/
 /***/ ((module) => {
 
-"use strict";
 
 
 var memo = {};
@@ -446,7 +440,6 @@ module.exports = insertBySelector;
   \**********************************************************************/
 /***/ ((module) => {
 
-"use strict";
 
 
 /* istanbul ignore next  */
@@ -467,7 +460,6 @@ module.exports = insertStyleElement;
   \**********************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 
 
 /* istanbul ignore next  */
@@ -489,7 +481,6 @@ module.exports = setAttributesWithoutAttributes;
   \***************************************************************/
 /***/ ((module) => {
 
-"use strict";
 
 
 /* istanbul ignore next  */
@@ -569,7 +560,6 @@ module.exports = domAPI;
   \*********************************************************************/
 /***/ ((module) => {
 
-"use strict";
 
 
 /* istanbul ignore next  */
@@ -595,7 +585,6 @@ module.exports = styleTagTransform;
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getAbout)
@@ -619,7 +608,7 @@ function aboutContent() {
 
   aboutCont.appendChild(aboutTxtDiv);
 
-  aboutTxtDiv.appendChild(createParagraph('ABOUT US'));
+  aboutTxtDiv.appendChild(createParagraph('About Us'));
   aboutTxtDiv.appendChild(
     createParagraph(
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien tempor aliquam id est. Fringilla tortor tristique tincidunt at interdum tristique. Posuere vulputate amet sit montes, ut id ullamcorper.'
@@ -645,6 +634,7 @@ function createParagraph(txt) {
 function createAboutImg(imgName) {
   const img = document.createElement('img');
   img.src = imgName;
+  img.setAttribute('draggable', 'false');
 
   return img;
 }
@@ -661,8 +651,151 @@ function getAbout() {
 /*!************************!*\
   !*** ./src/contact.js ***!
   \************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ getContact)
+/* harmony export */ });
+/* harmony import */ var _assets_uber_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/uber.png */ "./src/assets/uber.png");
+/* harmony import */ var _assets_door_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/door.png */ "./src/assets/door.png");
+/* harmony import */ var _assets_grubhub_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/grubhub.png */ "./src/assets/grubhub.png");
+/* harmony import */ var _assets_map_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/map.png */ "./src/assets/map.png");
+
+
+
+
+
+function contactContent() {
+  const contactCont = document.createElement('div');
+  contactCont.classList.add('contact-content');
+
+  const contactLine = document.createElement('hr');
+  contactLine.classList.add('contact-line');
+
+  contactCont.appendChild(contactLine);
+
+  const contactDiv = document.createElement('div');
+  contactDiv.classList.add('contact-box');
+
+  const contactHeader = document.createElement('div');
+  contactHeader.classList.add('contact-header');
+
+  contactHeader.appendChild(createParagraph('Contact Us'));
+
+  const arrow = document.createElement('i');
+  arrow.classList.add('arrow');
+  arrow.classList.add('down');
+
+  contactHeader.appendChild(arrow);
+
+  const contactInfo = document.createElement('div');
+  contactInfo.classList.add('contact-info');
+
+  contactInfo.appendChild(createParagraph('Monday - Saturday'));
+  contactInfo.appendChild(createParagraph('+1-222-333-444'));
+  contactInfo.appendChild(createParagraph('1:00PM - 10:00PM'));
+  contactInfo.appendChild(createParagraph('beepboop@gmail.com'));
+
+  const iconsDiv = document.createElement('div');
+  iconsDiv.classList.add('contact-icons');
+
+  const facebookIcon = document.createElement('iconify-icon');
+  facebookIcon.setAttribute('icon', 'akar-icons:facebook-fill');
+  setWidthHeight(facebookIcon);
+
+  const githubLink = document.createElement('a');
+  githubLink.href = 'https://github.com/FOXYSAMU';
+  githubLink.target = '_blank';
+
+  const githubIcon = document.createElement('iconify-icon');
+  githubIcon.setAttribute('icon', 'akar-icons:github-fill');
+  setWidthHeight(githubIcon);
+
+  const twitterIcon = document.createElement('iconify-icon');
+  twitterIcon.setAttribute('icon', 'akar-icons:twitter-fill');
+  setWidthHeight(twitterIcon);
+
+  iconsDiv.appendChild(facebookIcon);
+
+  iconsDiv.appendChild(githubLink);
+  githubLink.appendChild(githubIcon);
+
+  iconsDiv.appendChild(twitterIcon);
+
+  const orderDiv = document.createElement('div');
+  orderDiv.classList.add('order-box');
+
+  const orderHeader = document.createElement('div');
+  orderHeader.classList.add('order-header');
+
+  orderDiv.appendChild(orderHeader);
+
+  orderHeader.appendChild(createParagraph('Order Now'));
+
+  const arrow2 = document.createElement('i');
+  arrow2.classList.add('arrow');
+  arrow2.classList.add('down');
+
+  orderHeader.appendChild(arrow2);
+
+  const orderInfo = document.createElement('div');
+  orderInfo.classList.add('order-info');
+
+  orderDiv.appendChild(orderInfo);
+
+  const orderIcons = document.createElement('div');
+  orderIcons.classList.add('order-icons');
+
+  orderInfo.appendChild(orderIcons);
+
+  orderIcons.appendChild(createImg(_assets_uber_png__WEBPACK_IMPORTED_MODULE_0__));
+  orderIcons.appendChild(createImg(_assets_door_png__WEBPACK_IMPORTED_MODULE_1__));
+  orderIcons.appendChild(createImg(_assets_grubhub_png__WEBPACK_IMPORTED_MODULE_2__));
+
+  const mapImg = document.createElement('img');
+  mapImg.src = _assets_map_png__WEBPACK_IMPORTED_MODULE_3__;
+  mapImg.setAttribute('draggable', 'false');
+  mapImg.classList.add('map');
+
+  orderInfo.appendChild(mapImg);
+
+  contactCont.appendChild(contactDiv);
+  contactDiv.appendChild(contactHeader);
+  contactDiv.appendChild(contactInfo);
+  contactDiv.appendChild(iconsDiv);
+
+  contactCont.appendChild(orderDiv);
+
+  return contactCont;
+}
+
+function createParagraph(txt) {
+  const p = document.createElement('p');
+  p.textContent = txt;
+
+  return p;
+}
+
+function createImg(imgName) {
+  const img = document.createElement('img');
+  img.src = imgName;
+  img.setAttribute('draggable', 'false');
+
+  return img;
+}
+
+function setWidthHeight(el) {
+  el.setAttribute('width', '62');
+  el.setAttribute('height', '62');
+
+  return el;
+}
+
+function getContact() {
+  const infoCont = document.querySelector('.info');
+  infoCont.appendChild(contactContent());
+}
 
 
 /***/ }),
@@ -673,7 +806,6 @@ function getAbout() {
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getHome)
@@ -770,7 +902,6 @@ function getHome() {
   \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ loadUp)
@@ -779,7 +910,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu */ "./src/menu.js");
 /* harmony import */ var _about__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./about */ "./src/about.js");
 /* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./contact */ "./src/contact.js");
-/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_contact__WEBPACK_IMPORTED_MODULE_3__);
 
 
 
@@ -1030,7 +1160,7 @@ function changeContent() {
       if (e.target.classList.contains('current')) return;
       changeBetweenPages();
       infoCont.textContent = '';
-      _contact__WEBPACK_IMPORTED_MODULE_3___default()();
+      (0,_contact__WEBPACK_IMPORTED_MODULE_3__["default"])();
     }
   });
 }
@@ -1041,7 +1171,7 @@ function loadUp() {
 
   contentDiv.appendChild(header());
   contentDiv.appendChild(mainContent());
-  (0,_home__WEBPACK_IMPORTED_MODULE_0__["default"])();
+  (0,_contact__WEBPACK_IMPORTED_MODULE_3__["default"])();
   addInfoClass();
   changeContent();
   changeBetweenPages();
@@ -1056,7 +1186,6 @@ function loadUp() {
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getMenu)
@@ -1149,7 +1278,6 @@ function getMenu() {
   \********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "about1.jpeg";
 
 /***/ }),
@@ -1160,7 +1288,6 @@ module.exports = __webpack_require__.p + "about1.jpeg";
   \********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "about2.jpeg";
 
 /***/ }),
@@ -1171,7 +1298,6 @@ module.exports = __webpack_require__.p + "about2.jpeg";
   \********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "about3.jpeg";
 
 /***/ }),
@@ -1182,8 +1308,17 @@ module.exports = __webpack_require__.p + "about3.jpeg";
   \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "bg.jpeg";
+
+/***/ }),
+
+/***/ "./src/assets/door.png":
+/*!*****************************!*\
+  !*** ./src/assets/door.png ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "door.png";
 
 /***/ }),
 
@@ -1193,7 +1328,6 @@ module.exports = __webpack_require__.p + "bg.jpeg";
   \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "food1.jpeg";
 
 /***/ }),
@@ -1204,7 +1338,6 @@ module.exports = __webpack_require__.p + "food1.jpeg";
   \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "food2.jpeg";
 
 /***/ }),
@@ -1215,7 +1348,6 @@ module.exports = __webpack_require__.p + "food2.jpeg";
   \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "food3.jpeg";
 
 /***/ }),
@@ -1226,7 +1358,6 @@ module.exports = __webpack_require__.p + "food3.jpeg";
   \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "food4.jpeg";
 
 /***/ }),
@@ -1237,8 +1368,27 @@ module.exports = __webpack_require__.p + "food4.jpeg";
   \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "food5.jpeg";
+
+/***/ }),
+
+/***/ "./src/assets/grubhub.png":
+/*!********************************!*\
+  !*** ./src/assets/grubhub.png ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "grubhub.png";
+
+/***/ }),
+
+/***/ "./src/assets/map.png":
+/*!****************************!*\
+  !*** ./src/assets/map.png ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "map.png";
 
 /***/ }),
 
@@ -1248,8 +1398,17 @@ module.exports = __webpack_require__.p + "food5.jpeg";
   \********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "snack1.jpeg";
+
+/***/ }),
+
+/***/ "./src/assets/uber.png":
+/*!*****************************!*\
+  !*** ./src/assets/uber.png ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "uber.png";
 
 /***/ }),
 
@@ -1259,7 +1418,6 @@ module.exports = __webpack_require__.p + "snack1.jpeg";
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "bitsumis-webfont.woff";
 
 /***/ }),
@@ -1270,7 +1428,6 @@ module.exports = __webpack_require__.p + "bitsumis-webfont.woff";
   \******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "bitsumis-webfont.woff2";
 
 /***/ })
@@ -1410,9 +1567,8 @@ module.exports = __webpack_require__.p + "bitsumis-webfont.woff2";
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
-"use strict";
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
