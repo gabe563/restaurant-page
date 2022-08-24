@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   entry: './src/index.js',
   output: {
     filename: 'bundle.js',
@@ -10,7 +10,6 @@ module.exports = {
     clean: true,
     assetModuleFilename: '[name][ext]',
   },
-  devtool: 'source-map',
   module: {
     rules: [
       {
