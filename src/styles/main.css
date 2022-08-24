@@ -31,6 +31,8 @@
 body::after {
   content: '';
   background: url(../assets/bg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
   opacity: 70%;
   top: 0;
   left: 0;
@@ -49,7 +51,7 @@ body::after {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 665px;
+  height: 88vh;
 }
 
 .snack1 {
@@ -163,7 +165,7 @@ li:nth-child(1).current ~ .current-box {
   justify-content: center;
   align-items: center;
   width: 92vw;
-  height: 574px;
+  height: 76vh;
   background-color: rgba(250, 250, 249, 0.9);
   border-radius: 50px;
   animation: fadeIn 1s;
@@ -237,9 +239,9 @@ li:nth-child(1).current ~ .current-box {
 .menu-content {
   display: grid;
   place-content: center;
-  min-width: 574px;
+  min-width: 76vh;
   width: 92vw;
-  height: 574px;
+  height: 76vh;
   border-radius: 50px;
   background-color: rgba(250, 250, 249, 0.9);
   animation: fadeIn 1s;
@@ -264,7 +266,7 @@ li:nth-child(1).current ~ .current-box {
 .scrollbar {
   display: flex;
   justify-content: center;
-  height: 500px;
+  height: 70vh;
   width: 92vw;
   overflow: auto;
 }
@@ -339,7 +341,7 @@ li:nth-child(1).current ~ .current-box {
   align-items: center;
   gap: 50px;
   width: 92vw;
-  height: 574px;
+  height: 76vh;
   padding: 100px;
   background-color: rgba(250, 250, 249, 0.9);
   border-radius: 50px;
@@ -410,7 +412,7 @@ li:nth-child(1).current ~ .current-box {
   justify-content: center;
   gap: 22rem;
   width: 92vw;
-  height: 574px;
+  height: 76vh;
   background-color: rgba(250, 250, 249, 0.9);
   border-radius: 50px;
   animation: fadeIn 1s;
