@@ -29,9 +29,10 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: `Robot\'s Snacks`,
+      title: `Robot\'s Cakes`,
       filename: 'index.html',
       template: 'src/main.html',
+      favicon: './src/assets/icon.png',
     }),
   ],
 };

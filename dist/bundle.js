@@ -1171,7 +1171,7 @@ function loadUp() {
 
   contentDiv.appendChild(header());
   contentDiv.appendChild(mainContent());
-  (0,_contact__WEBPACK_IMPORTED_MODULE_3__["default"])();
+  (0,_home__WEBPACK_IMPORTED_MODULE_0__["default"])();
   addInfoClass();
   changeContent();
   changeBetweenPages();
