@@ -51,7 +51,7 @@ body::after {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 88vh;
+  margin-top: 40px;
 }
 
 .snack1 {
